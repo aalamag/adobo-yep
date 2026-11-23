@@ -3,7 +3,7 @@
 // The POINTS are estimates, not a real 100-person survey. Run a survey and update them in /admin.
 
 export const DEFAULT_CONFIG = {
-  version: 3,
+  version: 4,
   title: 'ADOBO YEP 2026',
   subtitle: 'Paskong Feud',
   season: 'ADOBO Year-End Party 2026',
@@ -15,7 +15,7 @@ export const DEFAULT_CONFIG = {
     { qid: 'r-leave',    mult: 1, label: 'Normal na Puntos' },
     { qid: 'r-loveteam', mult: 2, label: 'Dobleng Puntos' },
     { qid: 'r-anime',    mult: 2, label: 'Dobleng Puntos' },
-    { qid: 'r-movie',    mult: 2, label: 'Dobleng Puntos' },
+    { qid: 'r-girls',    mult: 2, label: 'Dobleng Puntos' },
     { qid: 'r-marvel',   mult: 2, label: 'Dobleng Puntos' },
     { qid: 'r-masakit',  mult: 3, label: 'Tripleng Puntos' },
     { qid: 'r-pasok',    mult: 3, label: 'Tripleng Puntos' },  // last round: its intro says "Huling Round"
@@ -61,11 +61,9 @@ export const DEFAULT_CONFIG = {
     { id: 'r-loveteam', kind: 'round', isNew: true, q: 'Pinakasikat na loveteam sa Pilipinas sa lahat ng panahon?', answers: [
       ['KathNiel', 24], ['Bea at John Lloyd', 20], ['AlDub', 14], ['JaDine', 11],
       ['Guy at Pip', 9], ['Sharon at Gabby', 8], ['LizQuen', 6], ['KimXi', 5] ] },
-    // The lead dies: Heneral Luna (assassinated), Miracle in Cell No. 7 PH (executed), Kita Kita (Tonyo),
-    // Jose Rizal (executed), Die Beautiful (Trisha), Himala (Elsa), Goyo (del Pilar), Hihintayin Kita sa Langit.
-    { id: 'r-movie', kind: 'round', isNew: true, q: 'Sikat na Tagalog movie kung saan namatay ang bida.', answers: [
-      ['Heneral Luna', 22], ['Miracle in Cell No. 7', 18], ['Kita Kita', 14], ['Jose Rizal', 11],
-      ['Die Beautiful', 10], ['Himala', 8], ['Goyo', 7], ['Hihintayin Kita sa Langit', 5] ] },
+    { id: 'r-girls', kind: 'round', isNew: true, q: 'Paboritong gawin ng mga babae kapag magkakasama.', answers: [
+      ['Magchismisan', 30], ['Kumain / Food trip', 18], ['Mag-shopping', 14], ['Mag-picture / Selfie', 10],
+      ['Mag-kape / Café hopping', 9], ['Mag-karaoke', 7], ['Manood ng K-drama', 6], ['Magpa-salon / Magpa-nails', 5] ] },
 
     // ---------- Christmas alternates (swap into the lineup in /admin) ----------
     { id: 'r-noche', kind: 'round', q: 'Magbigay ng pagkaing hindi puwedeng mawala sa Noche Buena.', answers: [

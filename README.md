@@ -62,7 +62,7 @@ It is built on the same engine as the Anime Matsuri Feud: plain HTML/CSS/JS with
 | 2 | ×1 | Bukod sa may sakit, bakit ka nagle-leave sa trabaho? |
 | 3 | ×2 | Pinakasikat na loveteam sa Pilipinas sa lahat ng panahon? |
 | 4 | ×2 | Anong anime ang may pinakamagandang Episode 1? |
-| 5 | ×2 | Sikat na Tagalog movie kung saan namatay ang bida. |
+| 5 | ×2 | Paboritong gawin ng mga babae kapag magkakasama. |
 | 6 | ×2 | Magbigay ng Marvel character na patay na (sa ngayon). |
 | 7 | ×3 | Magbigay ng bagay na masakit pero masarap. |
 | Final | ×3 | Magbigay ng bagay na pinapasok sa katawan ng tao. |
